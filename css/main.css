@@ -1,0 +1,296 @@
+@font-face {
+    font-family: 'Barlow';
+    src: url('../fonts/Barlow/Barlow-Regular.woff2') format('woff2'),
+    url('../fonts/Barlow/Barlow-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url('../fonts/Barlow_Condensed/BarlowCondensed-Regular.woff2') format('woff2'),
+    url('../fonts/Barlow_Condensed/Barlow-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Bellefair';
+    src: url('../fonts/Bellefair/Bellefair-Regular.woff2') format('woff2'),
+    url('../fonts/Bellefair/Bellefair-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.first__img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    background-image: url(../img/Desktop\ -\ Home.png);
+    background-repeat: no-repeat;
+    align-items: center;
+}
+.second__img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    background-image: url(../img/Desktop\ -\ Crew\ -\ A.png);
+    background-repeat: no-repeat;
+    align-items: center;    
+}
+.third__img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    background-image: url(../img/Desktop\ -\ Destination\ -\ A.png);
+    background-repeat: no-repeat;
+    align-items: center;    
+}
+.fourth__img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    background-image: url(../img/Desktop\ -\ Technology\ -\ A.png);
+    background-repeat: no-repeat;
+    align-items: center;    
+}
+.header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1350px;
+}
+.logo{
+    margin-left: 30px;
+    border-radius: 50px;
+}
+hr{
+    width: 500px;
+    height: 1px;
+    margin-left: 70px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+nav{
+    display: flex;
+    font-size: 16px;
+}
+li{ 
+    text-align: center;
+    display: inline-block;
+    color: white;
+    list-style: none;
+    padding: 10px;
+}
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: 50;
+} 
+span{
+    font-weight: 600;
+    padding: 10px;
+    color: rgb(78, 73, 73);
+}
+.wrapper{
+    backdrop-filter: blur(40.7742px);
+    background: rgba(255, 255, 255, 0.04);
+    margin-top: 20px;
+    width: 700px;
+    height: 80px;
+}
+.text{
+    padding: 20px;
+}
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 180px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+.first__text{
+    font-family: 'Barlow Condensed';
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    font-style: normal;
+    letter-spacing: 4px;
+    margin-top: 50px;
+    color: #D0D6F9;
+}
+.second__text{
+    font-family: 'Bellefair';
+    font-weight: 400;
+    font-size: 100px;
+    margin: 15px;
+    color: #ffffff;
+}
+p{
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 18px;
+    color: #D0D6F9;
+}
+.last__img{
+    height: 174px;
+    width: 174px;
+    margin-right: 100px;
+}
+/* MOON */
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.first_text{
+    font-family: 'Barlow Condensed';
+    font-size: 28px;
+    font-weight: 400;
+    text-align: start;
+    margin-left: 100px;
+    line-height: 34px;
+    font-style: normal;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    color: #D0D6F9;   
+}
+.second_text{
+    font-family: 'Bellefair';
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 114.6px;
+    color: white;
+}
+.container{
+    width: 678px;
+    height: 678px;
+    left: 16px;
+    top: 200px;
+}
+.bitmap{
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.main{
+    margin-right: 300px;
+}
+.li{
+    padding: 0;
+    color: black;
+    font-family: 'Barlow Condensed';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 2.700000047683716px;
+    text-align: left;
+    margin-top: 50px;
+}
+.main__ul{
+    padding: 0;
+    margin: 0;
+    margin-top: 100px;
+}
+.wrapper2{
+    display: flex;
+}
+.same_text{
+    font-family: 'Barlow Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+    letter-spacing: 2.36px;
+    color: #D0D6F9;
+}
+.same_text2{
+    font-family: 'Bellefair';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32.09px;
+    color: #FFFFFF;
+}
+/* CREW */
+.pic2__text1{
+    font-family: 'Barlow Condensed';
+    font-size: 28px;
+    font-weight: 400;
+    text-align: start;
+    margin-left: 100px;
+    line-height: 34px;
+    font-style: normal;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    color: #D0D6F9;      
+}
+.pic2__hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pic2__text2{
+    font-family: 'Bellefair';
+    font-weight: 400;
+    font-size: 50px;
+    margin: 10px;
+    color: rgb(110, 103, 103);
+    
+}
+.pic2__text3{
+    font-family: 'Bellefair';
+    font-weight: 400;
+    font-size: 80px;
+    margin: 15px;
+    color: #ffffff;
+}
+.pic2__last{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+    padding-bottom: 150px;
+}
+/* TECHNOLOGY */
+.pic3__text1{
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #D0D6F9;
+}
+.pic3__div{
+    padding: 20px;
+    margin: 20px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.first__round{
+    border-radius: 80px;
+    background-color: black;
+    color: #FFFFFF;
+    position: absolute;
+    width: 30px;
+    height: 30px;   
+}
+.first2__round{
+    border-radius: 80px;
+    background-color: black;
+    color: #FFFFFF;
+    position: absolute;
+    width: 30px;
+    height: 30px; 
+    margin-top: 50px;
+}
+.first3__round{
+    margin-top: 100px;
+    border-radius: 80px;
+    background-color: black;
+    color: #FFFFFF;
+    position: absolute;
+    width: 30px;
+    height: 30px;   
+}
